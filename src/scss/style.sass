@@ -1,0 +1,59 @@
+@import _variables
+
+//importa del documento
+
+=cell($padd)
+  border: 1px solid black
+  padding: $padd
+  text-align: center
+
+#container
+  width: $container-width
+  margin: $container-margin
+  background: $list-color
+
+p
+  font: $paragraph-size
+
+h1
+  font: $subtitle-font
+  color: $subtitle-color
+  margin: 0 auto
+
+  //en el centro sin margenes
+  text-align: center
+
+h2
+  font: $subtitle-font
+  color: $subtitle-color
+
+  &:hover
+    color: $color-opacidad
+    cursor: pointer
+
+td
+  background: $title-color
+  font: $paragraph-size
+
+  &:hover
+    color: $color-opacidad
+    cursor: pointer
+
+#scores
+  padding: 15px
+  overflow-x: auto
+  border-collapse: collapse
+
+  table
+    border-collapse: collapse
+    background: $list-color
+
+  td
+    +cell(8px)
+
+    background: $sumar1 + $sumar2
+
+  th
+    @extend td
+
+    background: $verdoso
