@@ -1,0 +1,36 @@
+@media (min-width:1024px) {
+  .name__margin{
+    margin-top: 15%;
+  }
+  .borde__margin{
+    margin: 20px;
+  }
+
+}
+
+@media (min-width:768px) and (max-width:1023px) {
+  .name__margin{
+    margin-top: 15%;
+  }
+  .borde__margin{
+    margin: 20px;
+  }
+
+}
+
+
+@media (min-width:320px) and (max-width:767px) {
+  .name__margin-movil{
+    margin-top: 50%;
+  }
+
+  h1{
+    font-size: 18px;
+  }
+  h2{
+    font-size: 13px;
+  }
+  .borde__margin-movil{
+    margin: 2px;
+  }
+}

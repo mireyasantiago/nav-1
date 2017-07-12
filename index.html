@@ -8,7 +8,7 @@
     <title>Ejercicio con Bootstrap</title>
     <!-- poner los enlaces de css, se descarga el bootstrap--->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/ejercicio.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
@@ -36,30 +36,45 @@
     </nav>
 
     <div id="contenido-pagina" >
-      <button type="button" class="hamburger desplazar" >
-
-        <img src="assets/fonts/bee_128px.png" alt="">
-      </button>
+      <div class="hamburger desplazar" >
+        <a href="#">
+          <img src="assets/fonts/menu1.png" class="img-responsive iconos" alt="Responsive image">
+        </a>
+      </div>
       <div class="container" >
 
-        <section class="row fondo2">
-          <div class=" borde col-xs-8 col-xs-offset-2 col-lg-5 col-lg-offset-4 nombre__margen " >
-            <div  class="row borde borde__margen " >
-              <h1>MIREYA LOPEZ SANTIAGO</h1>
-              <h2>FRONT-END</h2>
+        <section class="row ">
+          <div class="col-lg-12">
+            <div class="row">
+              <div class="fondo2  col-xs-8 col-xs-offset-2 col-lg-5 col-lg-offset-4 nombre__margen " >
+                <div  class=" borde" >
+                  <h1>MIREYA LOPEZ SANTIAGO</h1>
+                  <h2>FRONT-END</h2>
+                </div>
+              </div>
             </div>
+            <div class="row">
+              <div class="col-xs-8 col-xs-offset-2  col-lg-offset-6 col-lg-3 nombre__margen">
+                <img src="assets/fonts/descarga.png" class="iconos" alt="">
+
+              </div>
+
+            </div>
+
           </div>
-          <p>csddfg</p>
         </section>
 
         <section class="row" id="sobre-mi">
-          <div class="col-lg-8 col-lg-offset-2">
-            <h2>Acerca de mi </h2>
-            <p>Bacon ipsum dolor sit amet tri-tip shoulder tenderloin shankle. Bresaola tail pancetta ball tip doner meatloaf corned beef. Kevin pastrami tri-tip prosciutto ham hock pork belly bacon pork loin salami pork chop shank corned beef tenderloin meatball cow. Pork bresaola meatloaf tongue, landjaeger tail andouille strip steak tenderloin sausage chicken tri-tip. Pastrami tri-tip kielbasa sausage porchetta pig sirloin boudin rump meatball andouille chuck tenderloin biltong shank </p>
-            <p>Pig meatloaf bresaola, spare ribs venison short loin rump pork loin drumstick jowl meatball brisket. Landjaeger chicken fatback pork loin doner sirloin cow short ribs hamburger shoulder salami pastrami. Pork swine beef ribs t-bone flank filet mignon, ground round tongue. Tri-tip cow turducken shank beef shoulder bresaola tongue flank leberkas ball tip.</p>
-            <p>Filet mignon brisket pancetta fatback short ribs short loin prosciutto jowl turducken biltong kevin pork chop pork beef ribs bresaola. Tongue beef ribs pastrami boudin. Chicken bresaola kielbasa strip steak biltong. Corned beef pork loin cow pig short ribs boudin bacon pork belly chicken andouille. Filet mignon flank turkey tongue. Turkey ball tip kielbasa pastrami flank tri-tip t-bone kevin landjaeger capicola tail fatback pork loin beef jerky.</p>
-            <p>Chicken ham hock shankle, strip steak ground round meatball pork belly jowl pancetta sausage spare ribs. Pork loin cow salami pork belly. Tri-tip pork loin sausage jerky prosciutto t-bone bresaola frankfurter sirloin pork chop ribeye corned beef chuck. Short loin hamburger tenderloin, landjaeger venison porchetta strip steak turducken pancetta beef cow leberkas sausage beef ribs. Shoulder ham jerky kielbasa. Pig doner short loin pork chop. Short ribs frankfurter rump meatloaf.</p>
-            <p>Filet mignon biltong chuck pork belly, corned beef ground round ribeye short loin rump swine. Hamburger drumstick turkey, shank rump biltong pork loin jowl sausage chicken. Rump pork belly fatback ball tip swine doner pig. Salami jerky cow, boudin pork chop sausage tongue andouille turkey.</p>
+          <div class=" col-lg-offset-4 col-lg-5 ">
+            <h2 class="text-center">Acerca de mi </h2>
+            <p class="text-center">Bacon ipsum dolor sit amet tri-tip shoulder tenderloin shankle. Bresaola tail
+               pancetta ball tip doner meatloaf corned beef. Kevin pastrami tri-tip prosciutto
+               ham hock pork belly bacon pork loin salami pork chop shank corned beef tenderloin
+                meatball cow. Pork bresaola meatloaf tongue, landjaeger tail andouille strip steak
+                 tenderloin sausage chicken tri-tip. Pastrami tri-tip kielbasa sausage porchetta pig
+                 sirloin boudin rump meatball andouille chuck tenderloin biltong shank
+            </p>
+
           </div>
         </section>
 
@@ -67,33 +82,46 @@
           <div class="col-lg-8 col-lg-offset-2">
             <h2>Habilidades</h2>
 
-            <ul class="ch-grid">
-              <li>
-                <div class="ch-item ch-img-1">
-                  <div class="ch-info">
-                    <h3>Use what you have</h3>
-                    <p>by Angela Duncan <a href="http://drbl.in/eOPF">View on Dribbble</a></p>
+            <div class="row">
+              <div class="col-sm-6 col-md-4 col-lg-offset-4 col-lg-4">
+                <div class="thumbnail">
+                  <img src="..." alt="...">
+                  <div class="caption">
+                    <h3>Thumbnail label</h3>
+                    <p>...</p>
+                    <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
                   </div>
                 </div>
-              </li>
-              <li>
-                <div class="ch-item ch-img-2">
-                  <div class="ch-info">
-                    <h3>Common Causes of Stains</h3>
-                    <p>by Antonio F. Mondragon <a href="http://drbl.in/eKMi">View on Dribbble</a></p>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div class="ch-item ch-img-3">
-                  <div class="ch-info">
-                    <h3>Pink Lightning</h3>
-                    <p>by Charlie Wagers <a href="http://drbl.in/ekhp">View on Dribbble</a></p>
-                  </div>
-                </div>
-              </li>
-            </ul>
+              </div>
+            </div>
 
+            <div class="row">
+              <div class="col-sm-6 col-md-4 col-lg-4 ">
+                <div class="thumbnail">
+                  <img src="..." alt="...">
+                  <div class="caption">
+                    <h3>Thumbnail label</h3>
+                    <p>...</p>
+                    <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4">
+
+              </div>
+
+              <div class="col-sm-6 col-md-4 col-lg-4">
+                <div class="thumbnail">
+                  <img src="..." alt="...">
+                  <div class="caption">
+                    <h3>Thumbnail label</h3>
+                    <p>...</p>
+                    <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
 
 
           </div>
@@ -102,22 +130,53 @@
         <section class="row" id="proyecto">
           <div class="col-lg-8 col-lg-offset-2">
             <h2>Proyectos</h2>
-            <p>Bacon ipsum dolor sit amet tri-tip shoulder tenderloin shankle. Bresaola tail pancetta ball tip doner meatloaf corned beef. Kevin pastrami tri-tip prosciutto ham hock pork belly bacon pork loin salami pork chop shank corned beef tenderloin meatball cow. Pork bresaola meatloaf tongue, landjaeger tail andouille strip steak tenderloin sausage chicken tri-tip. Pastrami tri-tip kielbasa sausage porchetta pig sirloin boudin rump meatball andouille chuck tenderloin biltong shank </p>
-            <p>Pig meatloaf bresaola, spare ribs venison short loin rump pork loin drumstick jowl meatball brisket. Landjaeger chicken fatback pork loin doner sirloin cow short ribs hamburger shoulder salami pastrami. Pork swine beef ribs t-bone flank filet mignon, ground round tongue. Tri-tip cow turducken shank beef shoulder bresaola tongue flank leberkas ball tip.</p>
-            <p>Filet mignon brisket pancetta fatback short ribs short loin prosciutto jowl turducken biltong kevin pork chop pork beef ribs bresaola. Tongue beef ribs pastrami boudin. Chicken bresaola kielbasa strip steak biltong. Corned beef pork loin cow pig short ribs boudin bacon pork belly chicken andouille. Filet mignon flank turkey tongue. Turkey ball tip kielbasa pastrami flank tri-tip t-bone kevin landjaeger capicola tail fatback pork loin beef jerky.</p>
-            <p>Chicken ham hock shankle, strip steak ground round meatball pork belly jowl pancetta sausage spare ribs. Pork loin cow salami pork belly. Tri-tip pork loin sausage jerky prosciutto t-bone bresaola frankfurter sirloin pork chop ribeye corned beef chuck. Short loin hamburger tenderloin, landjaeger venison porchetta strip steak turducken pancetta beef cow leberkas sausage beef ribs. Shoulder ham jerky kielbasa. Pig doner short loin pork chop. Short ribs frankfurter rump meatloaf.</p>
-            <p>Filet mignon biltong chuck pork belly, corned beef ground round ribeye short loin rump swine. Hamburger drumstick turkey, shank rump biltong pork loin jowl sausage chicken. Rump pork belly fatback ball tip swine doner pig. Salami jerky cow, boudin pork chop sausage tongue andouille turkey.</p>
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="jumbotron">
+                  <h1>Hello, world!</h1>
+                  <p>...</p>
+                  <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+                </div>
+              </div>
+
+              <div class="col-lg-6">
+                <div class="jumbotron">
+                  <h1>Hello, world!</h1>
+                  <p>...</p>
+                  <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-lg-offset-1 col-lg-10">
+                <div class="jumbotron">
+                  <h1>Hello, world!</h1>
+                  <p>...</p>
+                  <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+                </div>
+              </div>
+
+            </div>
           </div>
         </section>
 
         <section class="row" id="contacto">
           <div class="col-lg-8 col-lg-offset-2">
-            <h2>Contactame</h2>
-            <p>Bacon ipsum dolor sit amet tri-tip shoulder tenderloin shankle. Bresaola tail pancetta ball tip doner meatloaf corned beef. Kevin pastrami tri-tip prosciutto ham hock pork belly bacon pork loin salami pork chop shank corned beef tenderloin meatball cow. Pork bresaola meatloaf tongue, landjaeger tail andouille strip steak tenderloin sausage chicken tri-tip. Pastrami tri-tip kielbasa sausage porchetta pig sirloin boudin rump meatball andouille chuck tenderloin biltong shank </p>
-            <p>Pig meatloaf bresaola, spare ribs venison short loin rump pork loin drumstick jowl meatball brisket. Landjaeger chicken fatback pork loin doner sirloin cow short ribs hamburger shoulder salami pastrami. Pork swine beef ribs t-bone flank filet mignon, ground round tongue. Tri-tip cow turducken shank beef shoulder bresaola tongue flank leberkas ball tip.</p>
-            <p>Filet mignon brisket pancetta fatback short ribs short loin prosciutto jowl turducken biltong kevin pork chop pork beef ribs bresaola. Tongue beef ribs pastrami boudin. Chicken bresaola kielbasa strip steak biltong. Corned beef pork loin cow pig short ribs boudin bacon pork belly chicken andouille. Filet mignon flank turkey tongue. Turkey ball tip kielbasa pastrami flank tri-tip t-bone kevin landjaeger capicola tail fatback pork loin beef jerky.</p>
-            <p>Chicken ham hock shankle, strip steak ground round meatball pork belly jowl pancetta sausage spare ribs. Pork loin cow salami pork belly. Tri-tip pork loin sausage jerky prosciutto t-bone bresaola frankfurter sirloin pork chop ribeye corned beef chuck. Short loin hamburger tenderloin, landjaeger venison porchetta strip steak turducken pancetta beef cow leberkas sausage beef ribs. Shoulder ham jerky kielbasa. Pig doner short loin pork chop. Short ribs frankfurter rump meatloaf.</p>
-            <p>Filet mignon biltong chuck pork belly, corned beef ground round ribeye short loin rump swine. Hamburger drumstick turkey, shank rump biltong pork loin jowl sausage chicken. Rump pork belly fatback ball tip swine doner pig. Salami jerky cow, boudin pork chop sausage tongue andouille turkey.</p>
+            <div class="row">
+              <div class="col-lg-3 ">
+                <a id="margin"  title="GitHub" href="https://github.com/mireyasantiago" target="_blank"><img src="assets/github_icon.png"></a>
+              </div>
+              <div class="col-lg-3 ">
+                <a  title="WhatsApp" href="https://api.whatsapp.com/send?phone=5571374772" target="_blank"><img src="assets/fonts/message_128px.png" class="magen__what" alt="#"></a>
+              </div>
+              <div class="col-lg-3 ">
+                <a  title="Email" href="mailto:mireyasantiago105@gmail.com"><img src="assets/fonts/mail_128px.png"></a>
+              </div>
+              <div class="col-lg-3 ">
+                <a  title="Celular" href="tel:55 7137 4772"><img src="assets/fonts/telephone_128px.png"></a>
+              </div>
+            </div>
           </div>
         </section>
 
@@ -140,6 +199,7 @@
   <script src="js/jquery.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/app.js"></script>
+  <script src="js/caja.js"></script>
 </body>
 
 </html>
